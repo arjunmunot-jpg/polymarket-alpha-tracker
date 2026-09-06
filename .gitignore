@@ -1,0 +1,26 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+
+# the curated research output — never published
+data/roster.json
+data/*.db
+data/*.sqlite*
+data/reports/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.bak
+*.bak_*
+
+# os
+.DS_Store
